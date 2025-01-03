@@ -7,8 +7,11 @@
 4. [Project Structure](#project-structure)
 5. [Classes and Their Functionality](#classes-and-their-functionality)
 6. [File Descriptions](#file-descriptions)
-7. [How to Run the Project](#how-to-run-the-project)
-8. [Usage](#usage)
+7. [Permissions](#permissions)
+8. [How to Run the Project](#how-to-run-the-project)
+9. [Usage](#usage)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 
 ---
@@ -44,6 +47,7 @@ The **Bank-System** is a console-based banking application designed to simulate 
 - **Tools**: Visual Studio (as indicated by `.vcxproj` files)
 
 ---
+
 
 ## **Project Structure**
 The project is organized into multiple header files (`.h`) and source files (`.cpp`). Below is the structure:
@@ -170,6 +174,27 @@ Below is a brief description of the key files in the project:
 
 13. **`LoginRegister.txt`**:
     - Stores login history.
+
+---
+
+## **Permissions**
+The system uses a permission-based access control system. Each user has a set of permissions that determine what actions they can perform. Below is a list of permissions and their functionalities:
+
+| Permission Flag         | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| `pListClients`          | Allows the user to view the list of clients.                                |
+| `pAddNewClient`         | Allows the user to add a new client.                                        |
+| `pDeleteClient`         | Allows the user to delete a client.                                         |
+| `pUpdateClients`        | Allows the user to update client information.                               |
+| `pFindClient`           | Allows the user to search for a client.                                     |
+| `pTranactions`          | Allows the user to perform transactions (deposit, withdraw, transfer).      |
+| `pManageUsers`          | Allows the user to manage other users (add, update, delete).                |
+| `pRegisterscreen`       | Allows the user to view the login register (login history).                 |
+| `eAll`                  | Grants full access to all functionalities (admin permission).               |
+
+### **Example of Permission Usage**
+- A user with `pListClients | pFindClient` can view the client list and search for clients but cannot add, delete, or update clients.
+- A user with `eAll` has full access to all features (admin).
 
 ---
 
