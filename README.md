@@ -47,41 +47,42 @@ The **Bank-System** is a console-based banking application designed to simulate 
 
 ## **Project Structure**
 The project is organized into multiple header files (`.h`) and source files (`.cpp`). Below is the structure:
-Bank-System/
-├── clsAddNewClientScreen.h
-├── clsAddNewUserScreen.h
-├── clsbankclients.h
-├── clsClientListScreen.h
-├── clsDate.h
-├── clsDeleteClientScreen.h
-├── clsDeleteUserScreen.h
-├── clsDepositScreen.h
-├── clsFindClientScreen.h
-├── clsFindUserScreen.h
-├── clsInputValidate.h
-├── clsListUsersScreen.h
-├── clsLoginRegisterScreen.h
-├── clsLoginScreen.h
-├── clsMainScreen.h
-├── clsManageUsersScreen.h
-├── clsperson.h
-├── clsScreen.h
-├── clsstring.h
-├── clsTotalBalancesScreen.h
-├── clsTransactionsScreen.h
-├── clsTransferLogScreen.h
-├── clsTransferScreen.h
-├── clsUpdateClientScreen.h
-├── clsUpdateUserScreen.h
-├── clsUser.h
-├── clsutil.h
-├── Global.h
-├── LoginRegister.txt
-├── opplib.cpp
-├── opplib.vcxproj
-├── opplib.vcxproj.filters
-├── Users.txt
-├── Clients.txt
+Bank-System
+    ├── clsAddNewClientScreen.h
+    ├── clsAddNewUserScreen.h
+    ├── clsbankclients.h
+    ├── clsClientListScreen.h
+    ├── clsDate.h
+    ├── clsDeleteClientScreen.h
+    ├── clsDeleteUserScreen.h
+    ├── clsDepositScreen.h
+    ├── clsFindClientScreen.h
+    ├── clsFindUserScreen.h
+    ├── clsInputValidate.h
+    ├── clsListUsersScreen.h
+    ├── clsLoginRegisterScreen.h
+    ├── clsLoginScreen.h
+    ├── clsMainScreen.h
+    ├── clsManageUsersScreen.h
+    ├── clsperson.h
+    ├── clsScreen.h
+    ├── clsstring.h
+    ├── clsTotalBalancesScreen.h
+    ├── clsTransactionsScreen.h
+    ├── clsTransferLogScreen.h
+    ├── clsTransferScreen.h
+    ├── clsUpdateClientScreen.h
+    ├── clsUpdateUserScreen.h
+    ├── clsUser.h
+    ├── clsutil.h
+    ├── Global.h
+    ├── LoginRegister.txt
+    ├── opplib.cpp
+    ├── opplib.vcxproj
+    ├── opplib.vcxproj.filters
+    ├── Users.txt
+    └── Clients.txt
+
 
 
 ---
