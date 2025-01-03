@@ -184,7 +184,7 @@ Below is a brief description of the key files in the project:
    - Run the project (`Debug > Start Without Debugging`).
 
 3. **Login**:
-   - Use the default username and password from `Users.txt` (e.g., `User1` with password `3456`).
+   - Use the default username and password from `Users.txt` (e.g., `User2` with password `1234`).
 
 ---
 
