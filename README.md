@@ -10,8 +10,7 @@
 7. [Permissions](#permissions)
 8. [How to Run the Project](#how-to-run-the-project)
 9. [Usage](#usage)
-10. [Contributing](#contributing)
-11. [License](#license)
+
 
 
 ---
