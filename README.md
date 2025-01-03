@@ -47,6 +47,7 @@ The **Bank-System** is a console-based banking application designed to simulate 
 
 ## **Project Structure**
 The project is organized into multiple header files (`.h`) and source files (`.cpp`). Below is the structure:
+```
 Bank-System
     ├── clsAddNewClientScreen.h
     ├── clsAddNewUserScreen.h
@@ -82,7 +83,7 @@ Bank-System
     ├── opplib.vcxproj.filters
     ├── Users.txt
     └── Clients.txt
-
+```
 
 
 ---
